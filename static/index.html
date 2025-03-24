@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/inputs.css" />
+    <script src="js/pedal.js" defer></script>
+    <script src="js/modal.js" defer></script>
+    <script src="js/inputs.js" defer></script>
+    <script src="js/loading.js" defer></script>
+    <title>Sardine Can</title>
+  </head>
+  <body>
+    <main>
+      <img class="logo" src="logo.png" alt="Sardine Can" />
+      <a class="wifi-button" href="wifi.html">
+        <svg
+          width="24"
+          height="24"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 640 512"
+        >
+          <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+          <path
+            fill="#ffffff"
+            d="M54.2 202.9C123.2 136.7 216.8 96 320 96s196.8 40.7 265.8 106.9c12.8 12.2 33 11.8 45.2-.9s11.8-33-.9-45.2C549.7 79.5 440.4 32 320 32S90.3 79.5 9.8 156.7C-2.9 169-3.3 189.2 8.9 202s32.5 13.2 45.2 .9zM320 256c56.8 0 108.6 21.1 148.2 56c13.3 11.7 33.5 10.4 45.2-2.8s10.4-33.5-2.8-45.2C459.8 219.2 393 192 320 192s-139.8 27.2-190.5 72c-13.3 11.7-14.5 31.9-2.8 45.2s31.9 14.5 45.2 2.8c39.5-34.9 91.3-56 148.2-56zm64 160a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"
+          />
+        </svg>
+        WiFi Settings
+      </a>
+      <div class="container">
+        <h2>Selecione o pedal para configurar a função</h2>
+        <div class="flex-col">
+          <div class="relative">
+            <img id="pedal_img" class="pedal-img" src="pedal.svg" alt="Pedal" />
+            <div class="pedal-container">
+              <div id="pedal_1" class="pedal"></div>
+              <div id="pedal_2" class="pedal"></div>
+              <div id="pedal_3" class="pedal"></div>
+              <div id="pedal_4" class="pedal"></div>
+            </div>
+          </div>
+          <div class="selected-descriptions">
+            <span id="pedal-description-1" class="description-item"
+              >MARKER 1</span
+            >
+            <span id="pedal-description-2" class="description-item"
+              >MARKER 2</span
+            >
+            <span id="pedal-description-3" class="description-item"
+              >TOGGLE SOLO 1</span
+            >
+            <span id="pedal-description-4" class="description-item"
+              >TAP TEMPO</span
+            >
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="button">SALVAR</button>
+        </div>
+      </div>
+    </main>
+
+    <div class="modal">
+      <div class="modal-content">
+        <h1 class="modal-title">Foot Switch 1</h1>
+        <div class="flex-col">
+          <span class="modal-title">Selecione a função</span>
+          <select class="select select-bordered function-select">
+            <option value="MARKER 1">Go to Marker 1</option>
+            <option value="MARKER 2">Go to Marker 2</option>
+            <option value="PREVIOUS MARKER">Previous Marker</option>
+            <option value="NEXT MARKER">Next Marker</option>
+            <option value="TOGGLE SOLO 1">Toggle Solo Track 1</option>
+            <option value="TAP TEMPO">Tap Tempo</option>
+          </select>
+        </div>
+        <label class="checkbox">
+          <input
+            class="custom-input"
+            type="checkbox"
+            value="toggle"
+            id="toggle"
+          />
+          Função OSC customizada
+        </label>
+        <div class="custom-input-container">
+          <div class="flex-col">
+            <span class="modal-title">Comando OSC</span>
+            <input
+              type="text"
+              class="input input-bordered custom-command"
+              placeholder="Digite a função customizada"
+            />
+          </div>
+          <div class="flex-col">
+            <span class="modal-title">Valor</span>
+            <input
+              type="text"
+              class="input input-bordered custom-value"
+              placeholder="Digite o valor"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <h1 class="modal-title">Foot Switch 2</h1>
+        <div class="flex-col">
+          <span class="modal-title">Selecione a função</span>
+          <select class="select select-bordered function-select">
+            <option value="MARKER 1">Go to Marker 1</option>
+            <option value="MARKER 2">Go to Marker 2</option>
+            <option value="PREVIOUS MARKER">Previous Marker</option>
+            <option value="NEXT MARKER">Next Marker</option>
+            <option value="TOGGLE SOLO 1">Toggle Solo Track 1</option>
+            <option value="TAP TEMPO">Tap Tempo</option>
+          </select>
+        </div>
+        <label class="checkbox">
+          <input
+            class="custom-input"
+            type="checkbox"
+            value="toggle"
+            id="toggle"
+          />
+          Função OSC customizada
+        </label>
+        <div class="custom-input-container">
+          <div class="flex-col">
+            <span class="modal-title">Comando OSC</span>
+            <input
+              type="text"
+              class="input input-bordered custom-command"
+              placeholder="Digite a função customizada"
+            />
+          </div>
+          <div class="flex-col">
+            <span class="modal-title">Valor</span>
+            <input
+              type="text"
+              class="input input-bordered custom-value"
+              placeholder="Digite o valor"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <h1 class="modal-title">Foot Switch 3</h1>
+        <div class="flex-col">
+          <span class="modal-title">Selecione a função</span>
+          <select class="select select-bordered function-select">
+            <option value="MARKER 1">Go to Marker 1</option>
+            <option value="MARKER 2">Go to Marker 2</option>
+            <option value="PREVIOUS MARKER">Previous Marker</option>
+            <option value="NEXT MARKER">Next Marker</option>
+            <option value="TOGGLE SOLO 1">Toggle Solo Track 1</option>
+            <option value="TAP TEMPO">Tap Tempo</option>
+          </select>
+        </div>
+        <label class="checkbox">
+          <input
+            class="custom-input"
+            type="checkbox"
+            value="toggle"
+            id="toggle"
+          />
+          Função OSC customizada
+        </label>
+        <div class="custom-input-container">
+          <div class="flex-col">
+            <span class="modal-title">Comando OSC</span>
+            <input
+              type="text"
+              class="input input-bordered custom-command"
+              placeholder="Digite a função customizada"
+            />
+          </div>
+          <div class="flex-col">
+            <span class="modal-title">Valor</span>
+            <input
+              type="text"
+              class="input input-bordered custom-value"
+              placeholder="Digite o valor"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <h1 class="modal-title">Foot Switch 4</h1>
+        <div class="flex-col">
+          <span class="modal-title">Selecione a função</span>
+          <select class="select select-bordered function-select">
+            <option value="MARKER 1">Go to Marker 1</option>
+            <option value="MARKER 2">Go to Marker 2</option>
+            <option value="PREVIOUS MARKER">Previous Marker</option>
+            <option value="NEXT MARKER">Next Marker</option>
+            <option value="TOGGLE SOLO 1">Toggle Solo Track 1</option>
+            <option value="TAP TEMPO">Tap Tempo</option>
+          </select>
+        </div>
+        <label class="checkbox">
+          <input
+            class="custom-input"
+            type="checkbox"
+            value="toggle"
+            id="toggle"
+          />
+          Função OSC customizada
+        </label>
+        <div class="custom-input-container">
+          <div class="flex-col">
+            <span class="modal-title">Comando OSC</span>
+            <input
+              type="text"
+              class="input input-bordered custom-command"
+              placeholder="Digite a função customizada"
+            />
+          </div>
+          <div class="flex-col">
+            <span class="modal-title">Valor</span>
+            <input
+              type="text"
+              class="input input-bordered custom-value"
+              placeholder="Digite o valor"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
