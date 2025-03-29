@@ -1,0 +1,4 @@
+/home/allan/Documentos/sardine-can/app/out/CMakeFiles/SardineCan.dir
+/home/allan/Documentos/sardine-can/app/out/CMakeFiles/edit_cache.dir
+/home/allan/Documentos/sardine-can/app/out/CMakeFiles/rebuild_cache.dir
+/home/allan/Documentos/sardine-can/app/out/CMakeFiles/SardineCan_autogen.dir

@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+8c38839c9ea7c1fabc26a004d915fc17 CMakeFiles/SardineCan_autogen
+2fc6abd84b886da767c55d7563adc0ab ui_main_window.h

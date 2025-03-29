@@ -50,6 +50,7 @@
     "streambuf": "cpp",
     "cinttypes": "cpp",
     "typeinfo": "cpp",
+    "iostream": "cpp",
     "bitset": "cpp",
     "chrono": "cpp",
     "condition_variable": "cpp",
@@ -58,5 +59,6 @@
     "regex": "cpp",
     "mutex": "cpp",
     "thread": "cpp"
-  }
+  },
+  "cmake.sourceDirectory": "/home/allan/Documentos/sardine-can/app"
 }
