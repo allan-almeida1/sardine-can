@@ -1,0 +1,26 @@
+[
+  {
+    "name": "SOLO TRACK 1",
+    "device": "Reaper",
+    "command": "/track/1/solo/toggle",
+    "value": 1
+  },
+  {
+    "name": "MARKER 1",
+    "device": "Reaper",
+    "command": "/marker/1",
+    "value": 1
+  },
+  {
+    "name": "MARKER 2",
+    "device": "Reaper",
+    "command": "/marker/2",
+    "value": 1
+  },
+  {
+    "name": "TAP TEMPO",
+    "device": "Reaper",
+    "command": "/action",
+    "value": "1134"
+  }
+]

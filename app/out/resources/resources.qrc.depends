@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/pedal.svg</file>
+        <file>images/pedal_1.svg</file>
+        <file>images/pedal_2.svg</file>
+        <file>images/pedal_3.svg</file>
+        <file>images/logo.png</file>
+        <file>images/pedal_4.svg</file>
+        <file>icons/chevron-right.svg</file>
+        <file>icons/chevron-right-disabled.svg</file>
+        <file>icons/chevron-right-hover.svg</file>
+        <file>icons/chevron-left.svg</file>
+        <file>icons/chevron-left-disabled.svg</file>
+        <file>icons/chevron-left-hover.svg</file>
+        <file>icons/wifi-connected.svg</file>
+        <file>icons/wifi-disconnected.svg</file>
+        <file>icons/gear.svg</file>
+        <file>icons/gear-disabled.svg</file>
+        <file>icons/gear-hover.svg</file>
+    </qresource>
+
+    <qresource prefix="/">
+        <file>fonts/LCD.ttf</file>
+    </qresource>
+</RCC>

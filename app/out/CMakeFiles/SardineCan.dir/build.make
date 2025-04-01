@@ -73,10 +73,49 @@ ui_main_window.h: /home/allan/Documentos/sardine-can/app/ui/main_window.ui
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_main_window.h"
 	/usr/lib/qt5/bin/uic -o /home/allan/Documentos/sardine-can/app/out/ui_main_window.h /home/allan/Documentos/sardine-can/app/ui/main_window.ui
 
+ui_pedal_dialog.h: /home/allan/Documentos/sardine-can/app/ui/pedal_dialog.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_pedal_dialog.h"
+	/usr/lib/qt5/bin/uic -o /home/allan/Documentos/sardine-can/app/out/ui_pedal_dialog.h /home/allan/Documentos/sardine-can/app/ui/pedal_dialog.ui
+
+ui_pedal_widget.h: /home/allan/Documentos/sardine-can/app/ui/pedal_widget.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_pedal_widget.h"
+	/usr/lib/qt5/bin/uic -o /home/allan/Documentos/sardine-can/app/out/ui_pedal_widget.h /home/allan/Documentos/sardine-can/app/ui/pedal_widget.ui
+
+ui_scan_dialog.h: /home/allan/Documentos/sardine-can/app/ui/scan_dialog.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_scan_dialog.h"
+	/usr/lib/qt5/bin/uic -o /home/allan/Documentos/sardine-can/app/out/ui_scan_dialog.h /home/allan/Documentos/sardine-can/app/ui/scan_dialog.ui
+
+ui_setup_dialog.h: /home/allan/Documentos/sardine-can/app/ui/setup_dialog.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_setup_dialog.h"
+	/usr/lib/qt5/bin/uic -o /home/allan/Documentos/sardine-can/app/out/ui_setup_dialog.h /home/allan/Documentos/sardine-can/app/ui/setup_dialog.ui
+
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/resources.qrc
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/images/pedal.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/images/pedal_1.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/images/pedal_2.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/images/pedal_3.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/images/logo.png
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/images/pedal_4.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/icons/chevron-right.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/icons/chevron-right-disabled.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/icons/chevron-right-hover.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/icons/chevron-left.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/icons/chevron-left-disabled.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/icons/chevron-left-hover.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/icons/wifi-connected.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/icons/wifi-disconnected.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/icons/gear.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/icons/gear-disabled.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/icons/gear-hover.svg
+qrc_resources.cpp: /home/allan/Documentos/sardine-can/app/resources/fonts/LCD.ttf
+qrc_resources.cpp: resources/resources.qrc.depends
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating qrc_resources.cpp"
+	/usr/lib/qt5/bin/rcc --name resources --output /home/allan/Documentos/sardine-can/app/out/qrc_resources.cpp /home/allan/Documentos/sardine-can/app/resources/resources.qrc
+
 CMakeFiles/SardineCan.dir/SardineCan_autogen/mocs_compilation.cpp.o: CMakeFiles/SardineCan.dir/flags.make
 CMakeFiles/SardineCan.dir/SardineCan_autogen/mocs_compilation.cpp.o: SardineCan_autogen/mocs_compilation.cpp
 CMakeFiles/SardineCan.dir/SardineCan_autogen/mocs_compilation.cpp.o: CMakeFiles/SardineCan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SardineCan.dir/SardineCan_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SardineCan.dir/SardineCan_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SardineCan.dir/SardineCan_autogen/mocs_compilation.cpp.o -MF CMakeFiles/SardineCan.dir/SardineCan_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/SardineCan.dir/SardineCan_autogen/mocs_compilation.cpp.o -c /home/allan/Documentos/sardine-can/app/out/SardineCan_autogen/mocs_compilation.cpp
 
 CMakeFiles/SardineCan.dir/SardineCan_autogen/mocs_compilation.cpp.i: cmake_force
@@ -90,7 +129,7 @@ CMakeFiles/SardineCan.dir/SardineCan_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/SardineCan.dir/src/main.cpp.o: CMakeFiles/SardineCan.dir/flags.make
 CMakeFiles/SardineCan.dir/src/main.cpp.o: /home/allan/Documentos/sardine-can/app/src/main.cpp
 CMakeFiles/SardineCan.dir/src/main.cpp.o: CMakeFiles/SardineCan.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SardineCan.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SardineCan.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SardineCan.dir/src/main.cpp.o -MF CMakeFiles/SardineCan.dir/src/main.cpp.o.d -o CMakeFiles/SardineCan.dir/src/main.cpp.o -c /home/allan/Documentos/sardine-can/app/src/main.cpp
 
 CMakeFiles/SardineCan.dir/src/main.cpp.i: cmake_force
@@ -101,22 +140,119 @@ CMakeFiles/SardineCan.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SardineCan.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/allan/Documentos/sardine-can/app/src/main.cpp -o CMakeFiles/SardineCan.dir/src/main.cpp.s
 
+CMakeFiles/SardineCan.dir/src/main_window.cpp.o: CMakeFiles/SardineCan.dir/flags.make
+CMakeFiles/SardineCan.dir/src/main_window.cpp.o: /home/allan/Documentos/sardine-can/app/src/main_window.cpp
+CMakeFiles/SardineCan.dir/src/main_window.cpp.o: CMakeFiles/SardineCan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SardineCan.dir/src/main_window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SardineCan.dir/src/main_window.cpp.o -MF CMakeFiles/SardineCan.dir/src/main_window.cpp.o.d -o CMakeFiles/SardineCan.dir/src/main_window.cpp.o -c /home/allan/Documentos/sardine-can/app/src/main_window.cpp
+
+CMakeFiles/SardineCan.dir/src/main_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SardineCan.dir/src/main_window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/allan/Documentos/sardine-can/app/src/main_window.cpp > CMakeFiles/SardineCan.dir/src/main_window.cpp.i
+
+CMakeFiles/SardineCan.dir/src/main_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SardineCan.dir/src/main_window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/allan/Documentos/sardine-can/app/src/main_window.cpp -o CMakeFiles/SardineCan.dir/src/main_window.cpp.s
+
+CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.o: CMakeFiles/SardineCan.dir/flags.make
+CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.o: /home/allan/Documentos/sardine-can/app/src/pedal_widget.cpp
+CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.o: CMakeFiles/SardineCan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.o -MF CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.o.d -o CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.o -c /home/allan/Documentos/sardine-can/app/src/pedal_widget.cpp
+
+CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/allan/Documentos/sardine-can/app/src/pedal_widget.cpp > CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.i
+
+CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/allan/Documentos/sardine-can/app/src/pedal_widget.cpp -o CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.s
+
+CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.o: CMakeFiles/SardineCan.dir/flags.make
+CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.o: /home/allan/Documentos/sardine-can/app/src/scan_dialog.cpp
+CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.o: CMakeFiles/SardineCan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.o -MF CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.o.d -o CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.o -c /home/allan/Documentos/sardine-can/app/src/scan_dialog.cpp
+
+CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/allan/Documentos/sardine-can/app/src/scan_dialog.cpp > CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.i
+
+CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/allan/Documentos/sardine-can/app/src/scan_dialog.cpp -o CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.s
+
+CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.o: CMakeFiles/SardineCan.dir/flags.make
+CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.o: /home/allan/Documentos/sardine-can/app/src/setup_dialog.cpp
+CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.o: CMakeFiles/SardineCan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.o -MF CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.o.d -o CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.o -c /home/allan/Documentos/sardine-can/app/src/setup_dialog.cpp
+
+CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/allan/Documentos/sardine-can/app/src/setup_dialog.cpp > CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.i
+
+CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/allan/Documentos/sardine-can/app/src/setup_dialog.cpp -o CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.s
+
+CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.o: CMakeFiles/SardineCan.dir/flags.make
+CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.o: /home/allan/Documentos/sardine-can/app/src/pedal_dialog.cpp
+CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.o: CMakeFiles/SardineCan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.o -MF CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.o.d -o CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.o -c /home/allan/Documentos/sardine-can/app/src/pedal_dialog.cpp
+
+CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/allan/Documentos/sardine-can/app/src/pedal_dialog.cpp > CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.i
+
+CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/allan/Documentos/sardine-can/app/src/pedal_dialog.cpp -o CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.s
+
+CMakeFiles/SardineCan.dir/qrc_resources.cpp.o: CMakeFiles/SardineCan.dir/flags.make
+CMakeFiles/SardineCan.dir/qrc_resources.cpp.o: qrc_resources.cpp
+CMakeFiles/SardineCan.dir/qrc_resources.cpp.o: CMakeFiles/SardineCan.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SardineCan.dir/qrc_resources.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SardineCan.dir/qrc_resources.cpp.o -MF CMakeFiles/SardineCan.dir/qrc_resources.cpp.o.d -o CMakeFiles/SardineCan.dir/qrc_resources.cpp.o -c /home/allan/Documentos/sardine-can/app/out/qrc_resources.cpp
+
+CMakeFiles/SardineCan.dir/qrc_resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SardineCan.dir/qrc_resources.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/allan/Documentos/sardine-can/app/out/qrc_resources.cpp > CMakeFiles/SardineCan.dir/qrc_resources.cpp.i
+
+CMakeFiles/SardineCan.dir/qrc_resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SardineCan.dir/qrc_resources.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/allan/Documentos/sardine-can/app/out/qrc_resources.cpp -o CMakeFiles/SardineCan.dir/qrc_resources.cpp.s
+
 # Object files for target SardineCan
 SardineCan_OBJECTS = \
 "CMakeFiles/SardineCan.dir/SardineCan_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/SardineCan.dir/src/main.cpp.o"
+"CMakeFiles/SardineCan.dir/src/main.cpp.o" \
+"CMakeFiles/SardineCan.dir/src/main_window.cpp.o" \
+"CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.o" \
+"CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.o" \
+"CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.o" \
+"CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.o" \
+"CMakeFiles/SardineCan.dir/qrc_resources.cpp.o"
 
 # External object files for target SardineCan
 SardineCan_EXTERNAL_OBJECTS =
 
 SardineCan: CMakeFiles/SardineCan.dir/SardineCan_autogen/mocs_compilation.cpp.o
 SardineCan: CMakeFiles/SardineCan.dir/src/main.cpp.o
+SardineCan: CMakeFiles/SardineCan.dir/src/main_window.cpp.o
+SardineCan: CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.o
+SardineCan: CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.o
+SardineCan: CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.o
+SardineCan: CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.o
+SardineCan: CMakeFiles/SardineCan.dir/qrc_resources.cpp.o
 SardineCan: CMakeFiles/SardineCan.dir/build.make
 SardineCan: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+SardineCan: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.12.8
 SardineCan: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 SardineCan: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 SardineCan: CMakeFiles/SardineCan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SardineCan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/allan/Documentos/sardine-can/app/out/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable SardineCan"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SardineCan.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,7 +263,12 @@ CMakeFiles/SardineCan.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/SardineCan.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/SardineCan.dir/clean
 
+CMakeFiles/SardineCan.dir/depend: qrc_resources.cpp
 CMakeFiles/SardineCan.dir/depend: ui_main_window.h
+CMakeFiles/SardineCan.dir/depend: ui_pedal_dialog.h
+CMakeFiles/SardineCan.dir/depend: ui_pedal_widget.h
+CMakeFiles/SardineCan.dir/depend: ui_scan_dialog.h
+CMakeFiles/SardineCan.dir/depend: ui_setup_dialog.h
 	cd /home/allan/Documentos/sardine-can/app/out && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/allan/Documentos/sardine-can/app /home/allan/Documentos/sardine-can/app /home/allan/Documentos/sardine-can/app/out /home/allan/Documentos/sardine-can/app/out /home/allan/Documentos/sardine-can/app/out/CMakeFiles/SardineCan.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SardineCan.dir/depend
 

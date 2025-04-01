@@ -166,6 +166,30 @@ SardineCan_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/SardineCan_autogen/mocs_compilation.cpp.s
 .PHONY : SardineCan_autogen/mocs_compilation.cpp.s
 
+qrc_resources.o: qrc_resources.cpp.o
+.PHONY : qrc_resources.o
+
+# target to build an object file
+qrc_resources.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/qrc_resources.cpp.o
+.PHONY : qrc_resources.cpp.o
+
+qrc_resources.i: qrc_resources.cpp.i
+.PHONY : qrc_resources.i
+
+# target to preprocess a source file
+qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/qrc_resources.cpp.i
+.PHONY : qrc_resources.cpp.i
+
+qrc_resources.s: qrc_resources.cpp.s
+.PHONY : qrc_resources.s
+
+# target to generate assembly for a file
+qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/qrc_resources.cpp.s
+.PHONY : qrc_resources.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -190,6 +214,126 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/main_window.o: src/main_window.cpp.o
+.PHONY : src/main_window.o
+
+# target to build an object file
+src/main_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/main_window.cpp.o
+.PHONY : src/main_window.cpp.o
+
+src/main_window.i: src/main_window.cpp.i
+.PHONY : src/main_window.i
+
+# target to preprocess a source file
+src/main_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/main_window.cpp.i
+.PHONY : src/main_window.cpp.i
+
+src/main_window.s: src/main_window.cpp.s
+.PHONY : src/main_window.s
+
+# target to generate assembly for a file
+src/main_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/main_window.cpp.s
+.PHONY : src/main_window.cpp.s
+
+src/pedal_dialog.o: src/pedal_dialog.cpp.o
+.PHONY : src/pedal_dialog.o
+
+# target to build an object file
+src/pedal_dialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.o
+.PHONY : src/pedal_dialog.cpp.o
+
+src/pedal_dialog.i: src/pedal_dialog.cpp.i
+.PHONY : src/pedal_dialog.i
+
+# target to preprocess a source file
+src/pedal_dialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.i
+.PHONY : src/pedal_dialog.cpp.i
+
+src/pedal_dialog.s: src/pedal_dialog.cpp.s
+.PHONY : src/pedal_dialog.s
+
+# target to generate assembly for a file
+src/pedal_dialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/pedal_dialog.cpp.s
+.PHONY : src/pedal_dialog.cpp.s
+
+src/pedal_widget.o: src/pedal_widget.cpp.o
+.PHONY : src/pedal_widget.o
+
+# target to build an object file
+src/pedal_widget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.o
+.PHONY : src/pedal_widget.cpp.o
+
+src/pedal_widget.i: src/pedal_widget.cpp.i
+.PHONY : src/pedal_widget.i
+
+# target to preprocess a source file
+src/pedal_widget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.i
+.PHONY : src/pedal_widget.cpp.i
+
+src/pedal_widget.s: src/pedal_widget.cpp.s
+.PHONY : src/pedal_widget.s
+
+# target to generate assembly for a file
+src/pedal_widget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/pedal_widget.cpp.s
+.PHONY : src/pedal_widget.cpp.s
+
+src/scan_dialog.o: src/scan_dialog.cpp.o
+.PHONY : src/scan_dialog.o
+
+# target to build an object file
+src/scan_dialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.o
+.PHONY : src/scan_dialog.cpp.o
+
+src/scan_dialog.i: src/scan_dialog.cpp.i
+.PHONY : src/scan_dialog.i
+
+# target to preprocess a source file
+src/scan_dialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.i
+.PHONY : src/scan_dialog.cpp.i
+
+src/scan_dialog.s: src/scan_dialog.cpp.s
+.PHONY : src/scan_dialog.s
+
+# target to generate assembly for a file
+src/scan_dialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/scan_dialog.cpp.s
+.PHONY : src/scan_dialog.cpp.s
+
+src/setup_dialog.o: src/setup_dialog.cpp.o
+.PHONY : src/setup_dialog.o
+
+# target to build an object file
+src/setup_dialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.o
+.PHONY : src/setup_dialog.cpp.o
+
+src/setup_dialog.i: src/setup_dialog.cpp.i
+.PHONY : src/setup_dialog.i
+
+# target to preprocess a source file
+src/setup_dialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.i
+.PHONY : src/setup_dialog.cpp.i
+
+src/setup_dialog.s: src/setup_dialog.cpp.s
+.PHONY : src/setup_dialog.s
+
+# target to generate assembly for a file
+src/setup_dialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SardineCan.dir/build.make CMakeFiles/SardineCan.dir/src/setup_dialog.cpp.s
+.PHONY : src/setup_dialog.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -203,9 +347,27 @@ help:
 	@echo "... SardineCan_autogen/mocs_compilation.o"
 	@echo "... SardineCan_autogen/mocs_compilation.i"
 	@echo "... SardineCan_autogen/mocs_compilation.s"
+	@echo "... qrc_resources.o"
+	@echo "... qrc_resources.i"
+	@echo "... qrc_resources.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/main_window.o"
+	@echo "... src/main_window.i"
+	@echo "... src/main_window.s"
+	@echo "... src/pedal_dialog.o"
+	@echo "... src/pedal_dialog.i"
+	@echo "... src/pedal_dialog.s"
+	@echo "... src/pedal_widget.o"
+	@echo "... src/pedal_widget.i"
+	@echo "... src/pedal_widget.s"
+	@echo "... src/scan_dialog.o"
+	@echo "... src/scan_dialog.i"
+	@echo "... src/scan_dialog.s"
+	@echo "... src/setup_dialog.o"
+	@echo "... src/setup_dialog.i"
+	@echo "... src/setup_dialog.s"
 .PHONY : help
 
 

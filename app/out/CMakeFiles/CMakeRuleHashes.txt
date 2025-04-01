@@ -1,3 +1,8 @@
 # Hashes of file build rules.
 8c38839c9ea7c1fabc26a004d915fc17 CMakeFiles/SardineCan_autogen
+6a9bf32c4249e56d221be3cc698cb4a6 qrc_resources.cpp
 2fc6abd84b886da767c55d7563adc0ab ui_main_window.h
+a264e81c87949e77e9c91d652314624e ui_pedal_dialog.h
+62f7116d226fd7493fa4c80abc645273 ui_pedal_widget.h
+870f6afba89605c362c84bbece0aae20 ui_scan_dialog.h
+587556b27962ed30b286b13f0e242b06 ui_setup_dialog.h
